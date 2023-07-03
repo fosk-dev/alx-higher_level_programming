@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-
 import urllib.request
 
 """A script that
-fetches https://intranet.hbtn.io/status.
+fetches https://alx-intranet.hbtn.io/status.
 """
 
 if __name__ == '__main__':
