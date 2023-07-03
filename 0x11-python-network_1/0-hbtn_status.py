@@ -1,13 +1,13 @@
 #!/usr/bin/python3
+
+import urllib.request
+
 """A script that
 fetches https://intranet.hbtn.io/status.
 """
 
-
 if __name__ == '__main__':
-    import urllib.request
-
-    with urllib.request.urlopen('https://intranet.hbtn.io/status') as resp:
+    with urllib.request.urlopen('https://alx-intranet.hbtn.io/status') as resp:
         content = resp.read()
         print("Body response:")
         print("\t- type: {}".format(type(content)))
